@@ -1,0 +1,160 @@
+{
+    "results": [
+      {
+        "id": "1",
+        "carrier": {
+          "id": 124,
+          "short_name": "MSC",
+          "official_name": "Mediterranean Shipping Company",
+          "scac": "MSCU"
+        },
+        "pol": {
+          "id": 14500,
+          "name": "Valparaiso",
+          "locode": "CLVAP",
+          "longitude": -71.616667,
+          "latitude": -33.033333
+        },
+        "pod": {
+          "id": 8640,
+          "name": "Miami",
+          "locode": "USMIA",
+          "longitude": -80.183333,
+          "latitude": 25.783333
+        },
+        "etd": "2023-04-09T10:00+0000",
+        "eta": "2023-05-24T15:00+0000",
+        "transit_time": 45
+      },
+      {
+        "id": "2",
+        "carrier": {
+          "id": 124,
+          "short_name": "MSC",
+          "official_name": "Mediterranean Shipping Company",
+          "scac": "MSCU"
+        },
+        "pol": {
+          "id": 14500,
+          "name": "Valparaiso",
+          "locode": "CLVAP",
+          "longitude": -71.616667,
+          "latitude": -33.033333
+        },
+        "pod": {
+          "id": 8640,
+          "name": "Miami",
+          "locode": "USMIA",
+          "longitude": -80.183333,
+          "latitude": 25.783333
+        },
+        "etd": "2023-04-16T10:00+0000",
+        "eta": "2023-06-06T17:00+0000",
+        "transit_time": 51
+      },
+      {
+          "id": "3",
+          "carrier": {
+              "id": 93,
+              "short_name": "Aliança",
+              "official_name": "Aliança Navegação e Logística",
+              "scac": "ALIU"
+          },
+          "pol": {
+              "id": 59970,
+              "name": "Shanghai",
+              "locode": "CNSHA",
+              "longitude": 121.519226,
+              "latitude": 31.395895
+          },
+          "pod": {
+              "id": 14470,
+              "name": "San Antonio",
+              "locode": "CLSAI",
+              "longitude": -71.616667,
+              "latitude": -33.583333
+          },
+          "etd": "2023-04-15T02:30+0000",
+          "eta": "2023-06-03T03:00+0000",
+          "transit_time": 49
+      },
+      {
+          "id": "4",
+          "carrier": {
+              "id": 93,
+              "short_name": "Aliança",
+              "official_name": "Aliança Navegação e Logística",
+              "scac": "ALIU"
+          },
+          "pol": {
+              "id": 59970,
+              "name": "Shanghai",
+              "locode": "CNSHA",
+              "longitude": 121.519226,
+              "latitude": 31.395895
+          },
+          "pod": {
+              "id": 14470,
+              "name": "San Antonio",
+              "locode": "CLSAI",
+              "longitude": -71.616667,
+              "latitude": -33.583333
+          },
+          "etd": "2023-04-22T02:00+0000",
+          "eta": "2023-06-11T03:00+0000",
+          "transit_time": 49
+      },
+      {
+          "id": "5",
+          "carrier": {
+              "id": 168,
+              "short_name": "ONE",
+              "official_name": "Ocean Network Express",
+              "scac": "ONEY"
+          },
+          "pol": {
+              "id": 59940,
+              "name": "Ningbo",
+              "locode": "CNNGB",
+              "longitude": 121.618652,
+              "latitude": 29.895425
+          },
+          "pod": {
+              "id": 14500,
+              "name": "Valparaiso",
+              "locode": "CLVAP",
+              "longitude": -71.616667,
+              "latitude": -33.033333
+          },
+          "etd": "2023-04-08T03:00+0000",
+          "eta": "2023-05-13T02:00+0000",
+          "transit_time": 35
+      },
+      {
+          "id": "6",
+          "carrier": {
+              "id": 114,
+              "short_name": "Hamburg Süd",
+              "official_name": "Hamburg Süd",
+              "scac": "SUDU"
+          },
+          "pol": {
+              "id": 59940,
+              "name": "Ningbo",
+              "locode": "CNNGB",
+              "longitude": 121.618652,
+              "latitude": 29.895425
+          },
+          "pod": {
+              "id": 14500,
+              "name": "Valparaiso",
+              "locode": "CLVAP",
+              "longitude": -71.616667,
+              "latitude": -33.033333
+          },
+          "etd": "2023-04-19T08:00+0000",
+          "eta": "2023-05-31T19:30+0000",
+          "transit_time": 42
+      }
+    ]
+  }
