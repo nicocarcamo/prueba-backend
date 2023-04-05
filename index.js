@@ -21,6 +21,7 @@ app.get('/itineraries', (req, res) => {
     const eta = req.query.eta;
     const transitTime = req.query.transitTime;
 
+    // utilizamos el módulo fs para leer el archivo json
     fs.readFile('./testDataset.json', (err, data) => {
         //error catch
         if (err) {
@@ -54,7 +55,7 @@ app.post('/itineraries', (req, res) => {
     const jsonData = JSON.parse(tempData);
     jsonData.results.push(newItinerary);
 
-    // enviamos una respuesta exitosa
+    // enviamos respuesta exitosa
     res.status(201).send('Itinerario agregado con éxito');
 
 });
